@@ -4,7 +4,7 @@ set -o nounset   # Unset variable/parameter is an error
 
 apt-get update
 apt-get upgrade -y
-apt-get install -y zsh zsh-syntax-highlighting dnsutils ldnsutils strace ngrep htop git dstat net-tools iproute2 socat curl wget tcpdump
+apt-get install -y zsh zsh-syntax-highlighting dnsutils ldnsutils strace ngrep htop ncdu git dstat net-tools iproute2 socat curl wget tcpdump iputils-ping vim
 rm -rf /var/lib/apt
 
 wget -O /root/.zshrc http://git.grml.org/f/grml-etc-core/etc/zsh/zshrc
